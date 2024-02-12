@@ -1,0 +1,668 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.portalheader{
+    display:flex;
+    
+}
+.portallogoheading{
+    display:flex;
+}
+.portallogo1 h3{
+    font-weight: 2;
+    color: aliceblue;
+}
+.portallogo1{
+    margin-left:5px;
+}
+.sidenav{
+    background-color: darkcyan;
+    width:260px;
+    height: auto;
+
+}
+.portallogo2 {
+    margin-left:5px;
+    margin-top:3px
+}
+.portallogo2 h3{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.overview{
+    margin-left:30px;
+}
+.overview h3{
+    font-weight: 2;
+    opacity: 0.5;
+}
+.overviewsidenav{
+    width:fit-content;
+    margin-left:20px;
+}
+.overviewsidenav h4{
+    font-weight: 20;
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+.overviewsidenav h4:hover{
+    background-color:white;
+    color:black;
+    border-radius:5px;
+}
+.profile{
+    margin-top:400px;
+    margin-left:30px
+}
+.profile h3{
+    font-weight: 2;
+    opacity: 0.5;
+}
+.profileinfo{
+    margin-left:20px;
+    width:fit-content;
+
+}
+.profileinfo h4{
+    font-weight: 20;
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+.username{
+    margin-top:30px;
+    display:flex;
+    margin-left:40px;
+}
+.usernameimg{
+    margin-top:20px;
+}
+.usernametext{
+    margin-left:10px;
+}
+.usernametext h4{
+    font-weight:20;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.active{
+    background-color:white;
+    
+    color:black;
+    border-radius: 5px;
+}
+.content{
+    display:flex;
+}
+.topnav{
+    display:flex;
+}
+.othercontent{
+    background-color: rgba(246, 246, 246, 0.999);
+    width:1400px;
+    
+}
+.accountstatement{
+    margin-left:30px;
+    height:100px;
+    background-color:white;
+    width:200px;
+    text-align: center;
+    padding:10px;
+    border-radius:5px;
+}
+.accountstatementinfo h5{
+    font-weight: 20;
+}
+.accountsinfo{
+    display:flex;
+    gap:50px;
+    margin-top:20px;
+}
+.accounts{
+    width:530px;
+    margin-left:30px;
+    background-color: white;
+    margin-top:40px;
+    padding:10px;
+    border-radius: 5px;
+}
+.savingaccount{
+    display:flex;
+    border-color: coral;
+    border-width: 2px;
+    border: 2px solid greenyellow;
+    height: fit-content;
+    border-radius: 10px;
+    width:500px;
+}
+.savingaccicon{
+    margin-top:20px;
+    background-color:coral;
+    width:30px;
+    height:30px;
+    border-radius:2000px;
+    text-align:center;
+    align-items: center;
+    padding:10px;
+}
+.savingaccicon1{
+    margin-top:20px;
+    background-color:green;
+    width:30px;
+    height:30px;
+    border-radius:2000px;
+    text-align:center;
+    align-items: center;
+    padding:10px;
+}
+.savingaccicon2{
+    margin-top:20px;
+    background-color:palevioletred;
+    width:30px;
+    height:30px;
+    border-radius:2000px;
+    text-align:center;
+    align-items: center;
+    padding:10px;
+}
+.accountinfo{
+    margin-left:50px;
+}
+.savingaccountradiobutton{
+    margin-left:180px;
+    margin-top:40px;
+}
+.savingaccountradiobutton1{
+    margin-left:133px;
+    margin-top:30px;
+}
+.savingaccountradiobutton2{
+    margin-left:180px;
+    margin-top:30px;
+}
+.savingaccountradiobutton3{
+    margin-left:195px;
+    margin-top:30px;
+}
+.accountinfo h4{
+    font-weight:20;
+}
+.savingaccount1{
+    display:flex;
+    border-color: coral;
+    border-width: 2px;
+   margin-top:10px;
+    height: fit-content;
+}
+.viewmorebutton{
+    margin-left:200px;
+}
+.viewmorebutton1{
+    margin-left:200px;
+    margin-top:30px;
+}
+.viewmorebutton1 button{
+    border-radius: 10px;
+    color:greenyellow;
+    padding:10px;
+    border:none;
+    background-color: darkgray;
+}
+.viewmorebutton button{
+    border-radius: 10px;
+    color:greenyellow;
+    padding:10px;
+    border:none;
+    background-color: darkgray;
+}
+.cardtext h4{
+    font-weight:10;
+}
+.individualcard{
+    display:flex;
+}
+.cardradiobutton input{
+    color:greenyellow;
+
+}
+.card{
+    width:530px;
+    background-color:white;
+    margin-left:10px;
+    margin-top:40px;
+    border-radius:10px;
+}
+.cardheading{
+    margin-left:40px
+}
+.accountsandcard{
+    display:flex;
+    gap:35px;
+}
+.cardsvg{
+    margin-top:20px;
+    margin-left:10px;
+}
+.cardtext{
+    margin-left:30px;
+   
+}
+.cardradiobutton{
+    margin-top:30px;
+    margin-left:150px;
+    color:greenyellow;
+    
+}
+.individualcard{
+    border:1px solid greenyellow;
+    display:flex;
+    width:450px;
+    margin-left:20px;
+    border-radius: 10px;
+}
+.individualcard1{
+    display:flex;
+    margin-left:20px;
+    width:450px;
+    margin-left:20px;
+}
+.cardradiobutton1{
+    margin-left:155px;
+    margin-top:30px;
+}
+.cardradiobutton2{
+margin-left:148px;
+margin-top:30px;
+}
+.cardradiobutton3{
+    margin-left:155px;
+    margin-top:30px;
+}
+.cardsvg1{
+    margin-top:40px;
+    margin-left:20px;
+}
+.cardsvg2{
+    margin-top:40px;
+    margin-left:13px;
+}
+.cardsvg3{
+    margin-top:40px;
+    margin-left:23px;
+}
+.cardtext h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.accountinfo h3{
+    font-size:medium;
+}
+.accountsheader{
+    margin-left:30px;
+}
+
+.activityhistory{
+    background-color:white;
+    border-radius:10px;
+    margin-top:20px;
+    width:fit-content;
+    margin-left:30px;
+}
+.activityhistoryheader{
+    display:flex;
+}
+.heading{
+    margin-left:50px;
+}
+
+.bodyheaders{
+    display:flex;
+}
+.datefilters{
+    margin-left:430px;
+    margin-top:10px;
+}
+.datefilters select{
+    padding:10px;
+    border-radius: 5px;
+}
+.datefilters span{
+    color:greenyellow;
+}
+.assetfilter{
+    margin-left:20px;
+    margin-top:10px;
+}
+.assetfilter select{
+    padding:10px;
+    border-radius:5px;
+}
+.typefilter{
+    margin-left:30px;
+    margin-top:10px;
+}
+.typefilter select{
+    padding:10px;
+    border-radius:5px;
+}
+.statusfilter{
+    margin-left:20px;
+    margin-top:10px;
+}
+.statusfilter select{
+    padding:10px;
+}
+.bodyheaders{
+    margin-top:25px;
+}
+.type{
+    margin-left:20px;
+    width:200px;
+    margin-top:20px;
+}
+.type select{
+    padding:10px;
+    border:none;
+}
+.date{
+    margin-left:20px;
+    width:200px;
+    margin-top:20px;
+
+}
+.date select{
+    padding:10px;
+    border:none;
+}
+.account{
+    margin-left:30px;
+    width:200px;
+
+}
+.description{
+    margin-left:30px;
+    width:200px
+    
+}
+.status{
+    margin-left:30px;
+    width:200px;
+    margin-top:20px;
+}
+.status select{
+    padding:10px;
+    border:none;
+}
+.bodycontent{
+    display:flex;
+}
+.accountname{
+    margin-left:50px;
+}
+.bodydate{
+    margin-left:160px;
+}
+.accountnumber{
+    margin-left:150px;
+}
+.bodydescription{
+    margin-left:170px;
+}
+.bodystatus{
+    margin-left:160px;
+    display:flex;
+}
+.circle{
+    width:10px;
+    height:10px;
+    background-color:blue;
+    border-radius:70px;
+    margin-top:30px;
+}
+.pending{
+    margin-left:8px;
+    margin-top:10px;
+}
+.bodycontent2{
+    display:flex;
+}
+.accountname1{
+    margin-left:50px
+}
+.bodydate1{
+    margin-left:160px;
+
+}
+.accountnumber1{
+    margin-left:150px;
+}
+.bodydescription1{
+    margin-left:150px;
+}
+.bodystatus1{
+    margin-left:155px;
+    display:flex;
+}
+.circle1{
+    width:10px;
+    height:10px;
+    background-color:green;
+    border-radius: 70px;
+    margin-top:30px;
+    margin-left:8px;
+}
+.completed1{
+    margin-left:8px;
+    margin-top:10px;
+}
+.bodycontent3{
+    display:flex;
+
+}
+.circle2{
+    width:10px;
+    height:10px;
+    background-color:red;
+    border-radius: 70px;
+    margin-top:30px;
+}
+.bodycontent h2 {
+    font-size: small;
+}
+.bodycontent h3 {
+    font-size: small;
+}
+.bodycontent h4 {
+    font-size:small;
+}
+.bodycontent2 h2 {
+    font-size: small;
+}
+.bodycontent2 h3 {
+    font-size: small;
+}
+.bodycontent2 h4 {
+    font-size:small;
+}
+.bodycontent3 h2 {
+    font-size: small;
+}
+.bodycontent3 h3 {
+    font-size: small;
+}
+.bodycontent3 h4 {
+    font-size:small;
+}
+.account h3{
+    font-size: small;
+
+}
+.description h3{
+font-size: small;
+}
+.account{
+    margin-top:20px;
+}
+.description{
+    margin-top:20px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+ 
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .toggleswitch{
+    margin-top:40px;
+    margin-left: 40px;
+    display:flex;
+    gap:20px;
+  }
+  .toggleswitch i{
+    font-size:20px;
+    color:white;
+  }
+  .hamburgermenu{
+    margin-left:20px;
+    background-color: #ccc;
+    padding:10px;
+    border-radius:10px;
+   
+    height: fit-content;
+    
+    
+    display:flex;
+  }
+  .hamburgermenu i{
+    font-size:20px;
+   
+    
+  }
+  .ictext{
+    margin-top:10px;
+    margin-left:10px;
+  }
+  .search{
+    margin-left:500px;
+    margin-top:5px;
+  }
+  .search i{
+    font-size:30px;
+  }
+  .message i{
+    font-size: 30px;
+  }
+  .message{
+    margin-top:5px;
+    margin-left: 30px;
+  }
+  .notification i{
+    font-size:30px;
+    margin-top: 5px;
+  }
+  .notification{
+    margin-left:30px;
+  }
+  .profilename{
+    margin-top:3px;
+    margin-left:20px;
+  }
+  .profileimage{
+    margin-top:5px;
+    margin-left: 30px;
+  }
+  .selectlanguage{
+    margin-top:px;
+    margin-left:20px;
+  }
+  .selectlanguage select{
+    padding:5px;
+    border-radius: 5px;
+    background-color:#ccc;
+  }
+  .circle5{
+    width:10px;
+    height:10px;
+    border-radius:70px;
+    background-color:green;
+    position:relative;
+    margin-left:30px;
+  }
+  .icon{
+    position:absolute;
+  }
+  .icon i{
+    font-size:20px;
+    background-color:#ccc;
+    border-radius:5px;
+    padding:10px;
+  }
+  .accounticon{
+    margin-top:10px;
+  }
+  .circle6{
+    width:10px;
+    height:10px;
+    border-radius:70px;
+    background-color:blue;
+    position:relative;
+    margin-left:30px;
+  }
